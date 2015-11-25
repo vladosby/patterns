@@ -1,2 +1,7 @@
 apply plugin: 'idea'
 apply plugin: 'java'
+
+
+task hello << {
+    println 'Hello Gradle'
+}
